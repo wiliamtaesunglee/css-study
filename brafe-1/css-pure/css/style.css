@@ -1,0 +1,36 @@
+/*Reset*/
+
+body, h1, h2, h3, p, ul {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: Georgia, Serif;
+    color: #252525;
+}
+
+.menu {
+    padding: 20px 0;
+    background-color: #252525;
+}
+
+.menu-container {
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.menu-container::after, .menu-container::before {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+a.menu-logo {
+    display: block;
+    float: left;
+}
+
+.menu-nav {
+    float: left;
+}
